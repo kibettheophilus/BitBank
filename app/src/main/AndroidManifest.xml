@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.kibet.bitbank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BitBankApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BitBank">
+        <activity
+            android:name=".ui.home.activities.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.auth.activities.AuthActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

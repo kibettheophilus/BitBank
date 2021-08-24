@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365700261265",
+    "project_id": "bitbank-32370",
+    "storage_bucket": "bitbank-32370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365700261265:android:75132815f009e16ef9e630",
+        "android_client_info": {
+          "package_name": "dev.kibet.bitbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365700261265-7vvbc8qstctblkbsatkhhps9rhc7mn2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDkzVveSbr6_XcmLS3jSXlpTxIxcxNlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365700261265-7vvbc8qstctblkbsatkhhps9rhc7mn2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
