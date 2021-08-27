@@ -13,7 +13,7 @@ import dev.kibet.bitbank.databinding.FragmentHomeBinding
 import dev.kibet.bitbank.models.History
 import dev.kibet.bitbank.ui.home.adapter.HistoryAdapter
 
-@AndroidEntryPoint
+
 class HistoryFragment : Fragment() {
     private lateinit var binding: FragmentHistoryBinding
 

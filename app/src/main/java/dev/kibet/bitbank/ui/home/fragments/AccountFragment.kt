@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
 import dev.kibet.bitbank.R
 
-@AndroidEntryPoint
+
 class AccountFragment : Fragment() {
 
     override fun onCreateView(

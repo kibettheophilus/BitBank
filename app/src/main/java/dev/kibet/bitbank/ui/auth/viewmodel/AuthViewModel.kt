@@ -1,7 +1,11 @@
 package dev.kibet.bitbank.ui.auth.viewmodel
 
-import dagger.hilt.android.lifecycle.HiltViewModel
+import android.content.Context
+import androidx.lifecycle.ViewModel
 
-@HiltViewModel
-class AuthViewModel {
+
+class AuthViewModel (
+): ViewModel() {
+
+
 }

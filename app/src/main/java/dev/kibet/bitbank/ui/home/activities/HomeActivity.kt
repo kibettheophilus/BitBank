@@ -8,7 +8,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import dev.kibet.bitbank.R
 import dev.kibet.bitbank.databinding.ActivityHomeBinding
 
-@AndroidEntryPoint
+
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?) {

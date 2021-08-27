@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
 import dev.kibet.bitbank.R
 
-@AndroidEntryPoint
 class HomeFragment : Fragment() {
 
     override fun onCreateView(
