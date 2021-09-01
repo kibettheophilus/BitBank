@@ -1,7 +1,11 @@
 package dev.kibet.bitbank.data.dao
 
 import androidx.room.Dao
+import androidx.room.Query
+import dev.kibet.bitbank.data.entity.BankEntity
 
 @Dao
-class BankDao {
+interface BankDao {
+    @Query("SELECT * FROM bank")
+    fun getAll(): List<BankEntity>
 }

@@ -1,6 +1,7 @@
 package dev.kibet.bitbank.ui.auth.fragments
 
 import android.content.Intent
+import android.opengl.Visibility
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -36,8 +37,11 @@ class LoginFragment : Fragment() {
         binding.btnLogin.setOnClickListener {
             val email = binding.emailAddress.text?.trim().toString()
             val password = binding.passwordLogin.text?.trim().toString()
+            val progressBar = binding.loginProgress
 
+            progressBar.visibility = View.VISIBLE
             if (email.isNullOrEmpty() || password.isNullOrEmpty()) {
+                progressBar.visibility = View.GONE
                 Toast.makeText(context, "All fields are required", Toast.LENGTH_LONG).show()
             } else {
                 loginUser(email, password)
@@ -53,8 +57,9 @@ class LoginFragment : Fragment() {
         val progressBar = binding.loginProgress
         firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
             if (task.isSuccessful) {
-                progressBar.visibility = View.VISIBLE
-                findNavController().navigate(R.id.action_loginFragment_to_homeActivity)
+                progressBar.visibility = View.GONE
+                //findNavController().navigate(R.id.action_loginFragment_to_homeActivity)
+                startActivity(Intent(requireContext(), HomeActivity::class.java))
             } else {
                 Toast.makeText(context, "Please try again", Toast.LENGTH_LONG).show()
                 progressBar.visibility = View.GONE

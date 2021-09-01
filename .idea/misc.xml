@@ -8,17 +8,22 @@
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/drawable/logo_background.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/mobile_money.xml" value="0.20615384615384616" />
         <entry key="app/src/main/res/drawable/recycler_border.xml" value="0.20615384615384616" />
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_add.xml" value="0.17760416666666667" />
         <entry key="app/src/main/res/layout/fragment_history.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_pay.xml" value="0.1625" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_send.xml" value="0.17760416666666667" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_withdraw.xml" value="0.17760416666666667" />
         <entry key="app/src/main/res/layout/item_recyclerview.xml" value="0.25" />
         <entry key="app/src/main/res/menu/home_menu.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/top_menu.xml" value="0.19322916666666667" />
@@ -26,6 +31,8 @@
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.209375" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/logo_round.xml" value="0.209375" />
+        <entry key="features/addmoney/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19907407407407407" />
+        <entry key="features/sendmoney/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19907407407407407" />
       </map>
     </option>
   </component>

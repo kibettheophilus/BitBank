@@ -34,8 +34,11 @@ class RegisterFragment : Fragment() {
         binding.btnRegister.setOnClickListener {
             val email = binding.emailInput.text?.trim().toString()
             val password = binding.passwordInput.text?.trim().toString()
+            val progressBar = binding.registerProgress
 
+            progressBar.visibility = View.VISIBLE
             if (email.isNullOrEmpty() || password.isNullOrEmpty()) {
+                progressBar.visibility = View.GONE
                 Toast.makeText(context, "All fields are required", Toast.LENGTH_LONG).show()
             } else {
                 createUser(email, password)
@@ -52,7 +55,7 @@ class RegisterFragment : Fragment() {
         firebaseAuth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    progressBar.visibility = View.VISIBLE
+                    progressBar.visibility = View.GONE
                     findNavController().navigate(R.id.action_registerFragment_to_loginFragment)
                 } else {
                     progressBar.visibility = View.GONE
