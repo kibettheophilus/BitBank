@@ -104,4 +104,15 @@ dependencies {
     implementation "androidx.room:room-runtime:2.3.0"
     annotationProcessor "androidx.room:room-compiler:2.3.0"
 
+
+    debugImplementation("androidx.fragment:fragment-testing:1.4.0-alpha08")
+    debugImplementation("androidx.fragment:fragment-ktx:1.4.0-alpha08")
+    debugImplementation("androidx.test:core:1.4.0")
+    debugImplementation("androidx.test:rules:1.4.0")
+    debugImplementation("androidx.test:runner:1.4.0")
+
+    //add the mockito
+    testImplementation 'org.mockito:mockito-core:3.3.3'
+    androidTestImplementation 'org.mockito:mockito-android:2.24.5'
+
 }

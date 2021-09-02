@@ -15,6 +15,8 @@ import dev.kibet.bitbank.ui.home.viewmodel.SplashViewModel
 
 
 class SplashFragment : Fragment() {
+
+
     private lateinit var binding: FragmentSplashBinding
     private lateinit var splashViewModel: SplashViewModel
 
@@ -25,7 +27,7 @@ class SplashFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentSplashBinding.inflate(inflater, container, false)
 
-        splashViewModel = SplashViewModel(requireContext())
+        splashViewModel = SplashViewModel()
 
         splashViewModel.setSplashTimeout(true)
 

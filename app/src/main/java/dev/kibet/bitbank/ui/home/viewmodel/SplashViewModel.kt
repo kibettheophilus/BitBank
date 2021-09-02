@@ -6,9 +6,7 @@ import android.os.Looper
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SplashViewModel(
-    val context: Context
-) : ViewModel() {
+class SplashViewModel() : ViewModel() {
 
     private var ready: MutableLiveData<Boolean>? = null
 
