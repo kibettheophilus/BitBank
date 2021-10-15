@@ -2,4 +2,8 @@
     <string name="app_name">BitBank</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_pay">Pay</string>
+    <string name="title_withdraw">Withdraw</string>
+    <string name="title_add">Add</string>
+    <string name="title_send">Send</string>
 </resources>
